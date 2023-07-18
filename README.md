@@ -17,6 +17,6 @@ After obtaining the coding format for the new dataset, you can train and test th
 The generalizability.py file is the code for testing the generalizability of the model.  
 The P&N sample analysis.py file and position_type_reads.py are the code that analyzes the dataset.  
 
-## Data Description:
+## Data Description
 All dataset sources are explained in the paper.  
 All datasets are in the ./datasets file, The text within /datasets/word embedding are data that we were asked to process to match our encoding.  
