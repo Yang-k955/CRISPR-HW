@@ -1,4 +1,4 @@
-# Prediction of CRISPR-Cas9 off-Target activities with mismatches and Indels based on hybrid neural network
+# Prediction of CRISPR-Cas9 Off-Target Activities with Mismatches and Indels Based on Hybrid Neural Network
 The repository includes a coding scheme and hybrid network model called CRISPR-HW for predicting off-target activities of insertions, deletions and mismatches in CRISPR/Cas9 gene editing.
 
 ## Prerequisite
