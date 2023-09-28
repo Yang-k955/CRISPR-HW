@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
                 reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=3, min_lr=1e-5, verbose=1)
 
-                history = model.fit(xtrain, ytrain, epochs=epochs, batch_size=batch_size, verbose=1, callbacks=[reduce_lr], validation_data=(xtest, ytest))
+                history = model.fit(xtrain, ytrain, epochs=epochs, batch_size=batch_size, verbose=1, callbacks=[reduce_lr])
 
                 y_pred_probs = model.predict(xtest)
                 y_pred = np.argmax(y_pred_probs, axis=1)
