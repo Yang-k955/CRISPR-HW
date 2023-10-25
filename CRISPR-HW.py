@@ -36,7 +36,7 @@ def loadData(encoded_file):
 if __name__ == '__main__':
     num_classes = 2
     epochs = 30
-    batch_size = 128 #512,1024
+    batch_size = 128 #512,1024,1000 #Different batch_size are required for different datasets
     lr = 0.003
     #FileList = ["SITE-Seq", "CIRCLE_seq","GUIDE-Seq_Kleinstiver", "CRISPOR", "GUIDE-Seq_Listgarten", "GUIDE-Seq_Tasi","deepCrispr_OT_data","Doench","Hek293t", "K562","Listgarten","Hek293t_K562"]
     FileList = ["CRISPOR", "Doench", ]
